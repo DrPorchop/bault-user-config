@@ -26,8 +26,8 @@
         base {
             bindings = <
                 &kp Q      &kp W      &kp E      &kp R      &kp T      &kp Y      &kp U      &kp I      &kp O      &kp P      &kp KC_BACKSPACE
-                &kp A  &kp S  &kp D  &kp F  &kp G      &kp H      &kp J  &kp K  &kp L  &hm mo1 ENTER
-                &kp Z      &kp X      &kp C      &kp V      &kp B      &kp N      &kp M      &kp COMMA      &kp PERIOD      &hm mo2 SLSH
+                &kp A  &kp S  &kp D  &kp F  &kp G      &kp H      &kp J  &kp K  &kp L  &lt 1 ENTER
+                &kp Z      &kp X      &kp C      &kp V      &kp B      &kp N      &kp M      &kp COMMA      &kp PERIOD      &lt 2 SLSH
                 &kp LCTL      &mo 3      &kp LSFT     &kp SPACE      &kp SPACE      &kp RGUI      &mo 2      &mo 3
             >;
         };
@@ -37,7 +37,7 @@
             bindings = <
                 &kp 1  &kp 2  &kp 3  &kp 4  &kp 5  &kp 6  &kp 7    &kp 8    &kp 9     &kp 0     &trans
                 &kp TAB  &kp UNDS  &kp PMNS  &trans  &trans  &trans  &trans    &kp SCLN    &kp QUOT  &kp ENTER
-                &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
+                &kp CAPS  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
                 &kp LALT   &trans  &trans  &trans  &trans  &trans    &trans &trans
             >;
         };
@@ -46,7 +46,7 @@
             bindings = <
                 &kp EXLM  &kp AT  &kp HASH  &kp DLR  &kp PERC  &kp CIRC  &kp AMPR    &kp ASTR    &kp LPRN     &kp RPRN     &trans
                 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp UP    &kp MINUS  &kp EQUAL
-                &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
+                &kp LOCKING_NUM  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
                 &kp N0   &trans  &trans  &trans  &trans  &trans    &trans &kp N0
             >;
         };
